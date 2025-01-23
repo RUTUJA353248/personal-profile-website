@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background:linear-gradient(to top ,#341994,#06000f,#260b6d,#6f4de9 );
+    color: #fff8f8;
+    
+}
+
+header {
+    background:linear-gradient(to right,#08080a,#070713,#381599,#080808,#370b8a,#070713,#00000c ) ;
+    color:rgb(67, 211, 247);
+    padding: 10px;
+    
+}
+h2,h3{
+    color: #e7a10a;
+}
+h4{
+    background: #01010a;
+    color: #e7a10a;
+   padding: 20px;
+   margin-bottom: auto;
+    
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 30px;
+    
+    
+}
+
+nav ul li a {
+    color:  #eebb13;
+   text-decoration:none;
+
+}
+.social-icons  {
+    margin-left: 150px;
+  
+}
+
+
+section {
+    padding: 100px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    background:linear-gradient(to right,#070713,#0d0d8b,#01000e );
+    margin: 15px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    background:  linear-gradient(to right,#81d6f8,#231a9b, #06000f );
+    
+}
+
+form button {
+    background: #e7a10a;
+    color: white;
+    padding: 10px;
+    border: none;
+}
